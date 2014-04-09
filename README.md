@@ -2,7 +2,10 @@ Big Data Warehouse on the Cloud in 30 Min
 ============
 
 #High Level Process
-This should be fairly complete.  Let me know if you run into any issues.
+This should be fairly complete.  Let me know if you run into any issues that a good google search can't solve :)
+
+Note that this exercise should cost u about 10 bucks if you are careful about terminating the machines you start up when complete.  Each EMR run will be just a couple bucks, depending on how you size redshift it will be between 1 and 4 bucks per hour to sustain a running cluster.
+Also - while ur at it check [free tier](http://aws.amazon.com/free/) benefits, there is alot of good tech to play with for free!
 
 ##Setup
 
