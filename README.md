@@ -8,10 +8,20 @@ This should be fairly complete.  Let me know if you run into any issues.
 
 1 -  If you haven't done so already sign up for an AWS account
 
-2 -  In S3 setup a bucket and key structure similar to this  
+2 -  Copy all our files from our public S3 bucket to your S3 instance
+s3://caserta-public/
+
+Easiest way is to install and configure [AWS Cli](http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html)
+
+Then issue the cmd from your local terminal
+```
+aws s3 sync s3://caserta-public  s3://<your-bucket>
+```
+
+3 -  Your S3 setup a bucket and key structure will be similar to this  
 
 ```
-/your-bucket  
+/<your-bucket>  
   /libs   
   /yelp  
     /in
@@ -25,7 +35,7 @@ This should be fairly complete.  Let me know if you run into any issues.
 	/etl
 ```			
 			
-3 -  Copy all our files from our public S3 bucket to your S3 instance
+
 
 4 - Clone this git repo, edit all paths to point to your bucket (if i have time i'll paramterize)
 
