@@ -27,8 +27,8 @@ CREATE TABLE stg_business
   latitied float,
   categories varchar(5000) );
   
-COPY stg_business from 's3://caserta-bucket1/yelp/out/business/' 
- CREDENTIALS 'aws_access_key_id=AKIAIRD63L75JEDZ6D7Q;aws_secret_access_key=yLIsd2YFNQ+te75QMnJl1rtDaa1lzSh98a6EWeZV'
+COPY stg_business from 's3://<your bucket>/yelp/out/business/' 
+ CREDENTIALS 'aws_access_key_id=<id>;aws_secret_access_key=<key>'
  escape 
  delimiter '|' dateformat 'DD/MM/YYYY';
  
