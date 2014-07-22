@@ -65,3 +65,5 @@ Note the below instructions assume you will be working with Redshift as the fina
 4 - Run s2w_business, s2w_date, and s2w_reviews.sql
 
 5 - At the bottom of s2w_reviews.sql are a few SQL statements you can use to explore the data.
+
+Have Fun!
